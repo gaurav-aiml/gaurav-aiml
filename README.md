@@ -7,7 +7,7 @@
 
 👀 I’m interested in the field of Data Engineering. 
 - I love working with Big Data. 
-- Working with companies to design, organize, automate and maintain their Data Ecosystem in this day and age, is something that I feel will be immensly worthy of the little time I have on this planet. <font size="0.5">_I suspect this drive comes from me being a little bit of a real-life neat-freak like Monica Geller (from TV show Friends, ofcourse!)_.</font>
+- Working with companies to design, organize, automate and maintain their Data Ecosystem in this day and age, is something that I feel will be immensly worthy of the little time one have on this planet. <font size="0.5">_I suspect this drive comes from me being a little bit of a real-life neat-freak like Monica Geller (from TV show Friends, ofcourse!)_.</font>
 
 ***
 
