@@ -1,7 +1,7 @@
 👋 Hi, I’m Gaurav Madhav Pai. 
 - I am a Recent Graduate from University at Buffalo (MS in CS). 
 - I specialized in Artificial Intelligence and Machine Learning. 
-- I work as a Research Volunteer at University at Buffalo. My work is focused on learning to use Computer Vision algorithms on Chest X-rays to diagnose various respiratory infections. 
+- I work as a Research Volunteer at University at Buffalo. My work is focused on using Computer Vision algorithms on Chest X-rays to diagnose various respiratory infections. 
 
 ***
 
