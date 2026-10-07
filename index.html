@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gaurav Sharma | AI engineering and data analysis</title>
+  <meta name="description" content="Gaurav Sharma builds LLM agents, fine-tunes small language models, and turns messy data into dashboards. Computer science graduate based in Mahesana, India.">
+  <meta property="og:title" content="Gaurav Sharma | AI engineering and data analysis">
+  <meta property="og:description" content="LLM agents, fine-tuned models, and Power BI dashboards. Open to entry-level roles.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#F5F6F8">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232F3FCB'/%3E%3Ctext x='32' y='44' font-size='34' font-family='Georgia,serif' text-anchor='middle' fill='white'%3EG%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Instrument+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // Apply the saved theme before first paint to avoid a flash.
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#work">Skip to projects</a>
+
+  <header class="bar">
+    <a class="mark" href="#top" aria-label="Gaurav Sharma, back to top">Gaurav Sharma</a>
+    <nav aria-label="Primary">
+      <a href="#work">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <button class="theme" id="theme" type="button" aria-label="Switch colour theme">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <h1>I build AI agents and turn messy data into decisions.</h1>
+      <p class="lede">I'm Gaurav, a computer science graduate in Mahesana, India. I build LLM agents, fine-tune small language models, and design dashboards that answer real business questions. I'm open to entry-level roles in AI engineering, data science, and analytics.</p>
+      <p class="actions">
+        <a class="btn primary" href="Resume.pdf" download>Download resume</a>
+        <a class="btn" href="https://github.com/gaurav-aiml" rel="noopener" target="_blank">GitHub</a>
+        <a class="btn" href="mailto:chmodgaurav@gmail.com" target="_blank">Email me</a>
+        <a class="btn" href="https://www.linkedin.com/in/gauravaiml" rel="noopener" target="_blank">LinkedIn</a>
+      </p>
+
+      <figure class="agent" aria-labelledby="agent-title">
+        <figcaption id="agent-title">How my research agent works. Select a step to read what it does.</figcaption>
+        <ol class="steps" id="steps">
+          <li><button type="button" data-i="0">Search</button></li>
+          <li><button type="button" data-i="1">Read</button></li>
+          <li><button type="button" data-i="2">Write</button></li>
+          <li><button type="button" data-i="3">Critic</button></li>
+        </ol>
+        <div class="loop" id="loop" aria-hidden="true"><span>revise</span></div>
+        <p class="status" id="status" aria-live="polite">Finds sources for the topic.</p>
+      </figure>
+    </section>
+
+    <section class="wrap block" id="work" aria-labelledby="work-h">
+      <div class="head">
+        <h2 id="work-h">Projects</h2>
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button type="button" class="chip" data-f="all" aria-pressed="true">All</button>
+          <button type="button" class="chip" data-f="ai" aria-pressed="false">AI engineering</button>
+          <button type="button" class="chip" data-f="data" aria-pressed="false">Data analysis</button>
+        </div>
+      </div>
+
+      <ul class="projects" id="projects">
+        <li data-cat="ai">
+          <details>
+            <summary>
+              <span class="p-title">Multi-Agent Research Assistant</span>
+              <span class="p-sum">A four-stage pipeline that turns a topic into a structured report.</span>
+              <span class="p-date">Aug 2026</span>
+            </summary>
+            <div class="p-body">
+              <ul>
+                <li>Search, reader/scraper, writer, and critic stages built with LangChain.</li>
+                <li>The critic reviews each draft and flags unsupported claims before the report is accepted.</li>
+                <li>Runs as a Streamlit web app and a Python CLI. API keys stay in environment variables.</li>
+              </ul>
+              <p class="stack">LangChain, OpenRouter, Streamlit, Python</p>
+              <p><a href="https://github.com/gaurav-aiml/AI_Multi-Research_Agent" rel="noopener" target="_blank">View on GitHub</a></p>
+            </div>
+          </details>
+        </li>
+        <li data-cat="ai">
+          <details>
+            <summary>
+              <span class="p-title">NexusClaw</span>
+              <span class="p-sum">A command-line coding assistant that plans and edits a local codebase.</span>
+              <span class="p-date">Apr to Sep 2025</span>
+            </summary>
+            <div class="p-body">
+              <ul>
+                <li>Interactive CLI with LLM tool calling and DuckDuckGo web research.</li>
+                <li>An agent loop that plans, executes, and corrects itself across multi-step coding tasks.</li>
+                <li>An owner-restricted Telegram bot interface, so only the owner can send it commands.</li>
+              </ul>
+              <p class="stack">Bun, TypeScript</p>
+              <p><a href="https://github.com/gaurav-aiml/NexusClaw" rel="noopener" target="_blank">View on GitHub</a></p>
+            </div>
+          </details>
+        </li>
+        <li data-cat="ai">
+          <details>
+            <summary>
+              <span class="p-title">Fine-tuning Qwen3:0.6B</span>
+              <span class="p-sum">LoRA fine-tuning of a small instruction-tuned model, on CPU only.</span>
+              <span class="p-date">Sep 2026</span>
+            </summary>
+            <div class="p-body">
+              <ul>
+                <li>PEFT/LoRA pipeline trained on a local dataset with no GPU.</li>
+                <li>Rank, alpha, and target modules tuned to balance quality against limited compute.</li>
+                <li>Dataset preparation, training, and evaluation documented so the run can be reproduced.</li>
+              </ul>
+              <p class="stack">Python, PyTorch, PEFT, LoRA</p>
+              <p><a href="https://github.com/gaurav-aiml/EduLora-Text_Fine_Tuning" rel="noopener" target="_blank">View on GitHub</a></p>
+            </div>
+          </details>
+        </li>
+        <li data-cat="ai">
+          <details>
+            <summary>
+              <span class="p-title">Knight-Sight</span>
+              <span class="p-sum">Number plate recognition from images: detect, localize, read.</span>
+              <span class="p-date">Apr 2026</span>
+            </summary>
+            <div class="p-body">
+              <ul>
+                <li>Modular pipeline for vehicle detection, plate localization, and OCR text extraction.</li>
+                <li>Includes a Streamlit dashboard and a YOLOv8 training utility.</li>
+                <li>Designed for small-scale, edge-friendly use, trading accuracy against inference cost. Built at a hackathon.</li>
+              </ul>
+              <p class="stack">Python, YOLOv8, OCR, Streamlit</p>
+              <p><a href="https://github.com/gaurav-aiml/Knight-Sight" rel="noopener" target="_blank">View on GitHub</a></p>
+            </div>
+          </details>
+        </li>
+        <li data-cat="data">
+          <details>
+            <summary>
+              <span class="p-title">Customer Churn Dashboard</span>
+              <span class="p-sum">Which telecom customers are likely to leave, and what to do about it.</span>
+              <span class="p-date">Power BI</span>
+            </summary>
+            <div class="p-body">
+              <ul>
+                <li>End-to-end dashboard analyzing churn for a telecom subscription service.</li>
+                <li>Identifies high-risk customer segments and suggests retention actions.</li>
+              </ul>
+              <p class="stack">Power BI</p>
+              <p><a href="https://github.com/gaurav-aiml/Customer_Churn_Dashboard" rel="noopener" target="_blank">View on GitHub</a></p>
+            </div>
+          </details>
+        </li>
+        <li data-cat="data">
+          <details>
+            <summary>
+              <span class="p-title">HR Analytics</span>
+              <span class="p-sum">Employee attrition and the workforce trends behind it.</span>
+              <span class="p-date">Power BI</span>
+            </summary>
+            <div class="p-body">
+              <ul>
+                <li>Attrition analysis on a structured employee dataset.</li>
+                <li>Dashboard of key workforce trends.</li>
+              </ul>
+              <p class="stack">Power BI</p>
+              <p><a href="https://github.com/gaurav-aiml/HR_Analytics" rel="noopener" target="_blank">View on GitHub</a></p>
+            </div>
+          </details>
+        </li>
+        <li data-cat="data">
+          <details>
+            <summary>
+              <span class="p-title">Sales Dashboard</span>
+              <span class="p-sum">Superstore sales, profit, customers, products, and shipping.</span>
+              <span class="p-date">Power BI</span>
+            </summary>
+            <div class="p-body">
+              <ul>
+                <li>Explores sales, profit, customers, products, shipping, and short-term sales trends.</li>
+              </ul>
+              <p class="stack">Power BI</p>
+              <p><a href="https://github.com/gaurav-aiml/Sales_Dashboard" rel="noopener" target="_blank">View on GitHub</a></p>
+            </div>
+          </details>
+        </li>
+        <li data-cat="data">
+          <details>
+            <summary>
+              <span class="p-title">Madhav Store Dashboard</span>
+              <span class="p-sum">Business performance for an e-commerce store.</span>
+              <span class="p-date">Power BI</span>
+            </summary>
+            <div class="p-body">
+              <ul>
+                <li>Combines order-level transaction details with customer geography and order metadata.</li>
+              </ul>
+              <p class="stack">Power BI</p>
+              <p><a href="https://github.com/gaurav-aiml/Madhav_Store_Dashboard" rel="noopener" target="_blank">View on GitHub</a></p>
+            </div>
+          </details>
+        </li>
+        <li data-cat="data">
+          <details>
+            <summary>
+              <span class="p-title">Movie Industry EDA</span>
+              <span class="p-sum">What separates movies that earn money from movies people rate highly.</span>
+              <span class="p-date">Python</span>
+            </summary>
+            <div class="p-body">
+              <ul>
+                <li>Exploratory analysis of the TMDB 5000 Movies dataset.</li>
+                <li>Compares financial success (revenue) with critical and audience success (rating).</li>
+              </ul>
+              <p class="stack">Python, Pandas, Jupyter Notebook</p>
+              <p><a href="https://github.com/gaurav-aiml/Movie-Industry-EDA" rel="noopener" target="_blank">View on GitHub</a></p>
+            </div>
+          </details>
+        </li>
+      </ul>
+    </section>
+
+    <section class="wrap block" id="experience" aria-labelledby="exp-h">
+      <h2 id="exp-h">Experience and education</h2>
+      <ol class="timeline">
+        <li>
+          <p class="when">Apr to Sep 2025</p>
+          <div>
+            <h3>Data Science Intern, The Entrepreneurship Network</h3>
+            <p>Remote, Delhi. Built NexusClaw, a coding assistant with LLM tool calling, web research, and a self-correcting agent loop.</p>
+          </div>
+        </li>
+        <li>
+          <p class="when">Oct 2023 to Sep 2025</p>
+          <div>
+            <h3>Freelance tutor, Mathematics and Computer Science</h3>
+            <p>Taught Mathematics (Classes 6 to 10) and CBSE Computer Science (Classes 11 to 12), with my own lesson plans and assessments.</p>
+          </div>
+        </li>
+        <li>
+          <p class="when">Sep 2022 to May 2026</p>
+          <div>
+            <h3>B.Tech, Computer Science and Engineering</h3>
+            <p>Hindustan College of Science and Technology. Top 10 finalist among 50 teams at the Deepsight Hackathon. Participant in Smart India Hackathon.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="wrap block" id="skills" aria-labelledby="skills-h">
+      <h2 id="skills-h">Skills</h2>
+      <dl class="skills">
+        <div><dt>AI and LLMs</dt><dd>LangChain, multi-agent systems, LLM tool calling, RAG, vector databases, prompt engineering, LoRA/PEFT</dd></div>
+        <div><dt>Machine learning</dt><dd>PyTorch, YOLOv8, OCR, statistics</dd></div>
+        <div><dt>Data</dt><dd>Python (Pandas, NumPy), SQL, PostgreSQL, Power BI, Tableau, Excel</dd></div>
+        <div><dt>Build</dt><dd>Python, TypeScript, JavaScript, HTML, CSS, Git, Streamlit, Bun</dd></div>
+      </dl>
+      <p class="certs">Certificates: Introduction to Agent Skills (Anthropic, Aug 2026). Prompt Engineering and AI Agents with ChatGPT (LinkedIn Learning, Jul 2026).</p>
+    </section>
+
+    <section class="wrap block contact" id="contact" aria-labelledby="contact-h">
+      <h2 id="contact-h">Let's talk</h2>
+      <p>I'm looking for an entry-level role where I can build and ship AI or data products. The quickest way to reach me is email.</p>
+      <p class="actions">
+        <a class="btn primary" href="mailto:chmodgaurav@gmail.com" target="_blank">chmodgaurav@gmail.com</a>
+        <a class="btn" href="https://github.com/gaurav-aiml" rel="noopener" target="_blank">github.com/gaurav-aiml</a>
+        <a class="btn" href="https://linkedin.com/in/gauravaiml" rel="noopener" target="_blank">linkedin.com/in/gaurav-aiml</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <p>&copy; <span id="year">2026</span> Gaurav Sharma. Mahesana, Gujarat, India.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
