@@ -15,11 +15,11 @@ Computer science graduate building LLM agents, fine-tuning small language models
 
 | Project | What it does | Stack |
 |---|---|---|
-| [AI_Multi-Research_Agent](https://github.com/gaurav-aiml/AI_Multi-Research_Agent) | Four-stage pipeline (search, reader, writer, critic) that turns a topic into a structured report | LangChain, OpenRouter, Streamlit |
-| [NexusClaw](https://github.com/gaurav-aiml/NexusClaw) | CLI coding assistant that plans and edits a local codebase, with an owner-restricted Telegram bot | Bun, TypeScript |
-| [EduLora-Text_Fine_Tuning](https://github.com/gaurav-aiml/EduLora-Text_Fine_Tuning) | CPU-based LoRA/PEFT fine-tuning pipeline for a small Qwen model | Python, PyTorch, PEFT |
-| [Knight-Sight](https://github.com/gaurav-aiml/Knight-Sight) | Number plate detection, localization, and OCR with a Streamlit dashboard | YOLOv8, OCR, Streamlit |
-| [Customer_Churn_Dashboard](https://github.com/gaurav-aiml/Customer_Churn_Dashboard) | Telecom churn analysis with high-risk segments and retention insights | Power BI |
+| [AI_Multi-Research_Agent](https://github.com/cypherloss/AI_Multi-Research_Agent) | Four-stage pipeline (search, reader, writer, critic) that turns a topic into a structured report | LangChain, OpenRouter, Streamlit |
+| [NexusClaw](https://github.com/cypherloss/NexusClaw) | CLI coding assistant that plans and edits a local codebase, with an owner-restricted Telegram bot | Bun, TypeScript |
+| [EduLora-Text_Fine_Tuning](https://github.com/cypherloss/EduLora-Text_Fine_Tuning) | CPU-based LoRA/PEFT fine-tuning pipeline for a small Qwen model | Python, PyTorch, PEFT |
+| [Knight-Sight](https://github.com/cypherloss/Knight-Sight) | Number plate detection, localization, and OCR with a Streamlit dashboard | YOLOv8, OCR, Streamlit |
+| [Customer_Churn_Dashboard](https://github.com/cypherloss/Customer_Churn_Dashboard) | Telecom churn analysis with high-risk segments and retention insights | Power BI |
 
 ## Tech I use
 
@@ -33,7 +33,7 @@ Computer science graduate building LLM agents, fine-tuning small language models
 | | |
 |---|---|
 | 📧 Email | [chmodgaurav@gmail.com](mailto:chmodgaurav@gmail.com) |
-| 💻 GitHub | [github.com/gaurav-aiml](https://github.com/gaurav-aiml) |
+| 💻 GitHub | [github.com/cypherloss](https://github.com/cypherloss) |
 | 💼 LinkedIn | [Gaurav Sharma](https://www.linkedin.com/in/gauravaiml) |
 |  𝕏 Twitter  | [Gaurav Sharma](https://x.com/GauravAIEng) |
 | 📍 Location | Mahesana, Gujarat, India |
